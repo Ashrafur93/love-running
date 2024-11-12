@@ -40,6 +40,23 @@ h1 {
     color: #252525;
 }
 
+/* Navigation menu buttons styling */
+#menu {
+    text-size-adjust: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+/* Navigation menu buttons list */
+#menu > li {
+    margin-bottom: 1em;
+}
+
+/* Navigation menu border */
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /* Main content */
 main {
     background-color: lightblue;
